@@ -100,8 +100,8 @@ SPF_errcode_t	 SPF_server_get_record(SPF_server_t *spf_server,
 	int \
 		SPF_server_get_ ## f(SPF_server_t *spf_server);
 
-SPF_DECL_ACCESS_INT(max_dns_mech);
-SPF_DECL_ACCESS_INT(max_dns_ptr);
-SPF_DECL_ACCESS_INT(max_dns_mx);
+SPF_DECL_ACCESS_INT(max_dns_mech)
+SPF_DECL_ACCESS_INT(max_dns_ptr)
+SPF_DECL_ACCESS_INT(max_dns_mx)
 
 #endif
